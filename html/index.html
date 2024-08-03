@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Documentação do Projeto</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Projeto XYZ</h1>
+            <div class="buttons">
+                <button class="sidebar-toggle" onclick="toggleSidebar()">
+                    ✖ <!-- Ícone de três barras -->
+                </button>
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    🌞 <!-- Ícone de sol -->
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside id="sidebar">
+            <nav>
+                <ul>
+                    <li onclick="toggleCategory('category1')">Categoria 1</li>
+                    <ul id="category1" class="subcategories hidden">
+                        <li onclick="loadContent('subcat1')">Subcategoria 1</li>
+                        <li onclick="loadContent('subcat2')">Subcategoria 2</li>
+                    </ul>
+                    <li onclick="toggleCategory('category2')">Categoria 2</li>
+                    <ul id="category2" class="subcategories hidden">
+                        <li onclick="loadContent('subcat3')">Subcategoria 3</li>
+                        <li onclick="loadContent('subcat4')">Subcategoria 4</li>
+                    </ul>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <div id="content">
+                <p>Bem-vindo à Documentação do Projeto.</p>
+            </div>
+        </main>
+    </div>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
