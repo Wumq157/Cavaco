@@ -1,1 +1,1 @@
-https://wumq157.github.io/Cavaco/
+https://wumq157.github.io/Cavaco/html/index.html
