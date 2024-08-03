@@ -1,6 +1,6 @@
 function loadContent(subcategory) {
     const contentFiles = {
-        'subcat1': '../texto/subcat1.txt',
+        'subcat1': '../texto/teste.txt',
         'subcat2': '../texto/subcat2.txt',
         'subcat3': '../texto/subcat3.txt',
         'subcat4': '../texto/subcat4.txt',
