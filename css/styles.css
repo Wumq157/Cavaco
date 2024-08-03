@@ -68,6 +68,7 @@ aside.hidden {
 }
 
 aside nav ul {
+    margin-top: 30px;
     list-style-type: none;
     padding: 0;
 }
@@ -78,7 +79,8 @@ aside nav ul li {
 }
 
 aside nav ul li:hover {
-    background: #ddd;
+    background: #9c9c9c;
+    border-radius: 30px;
 }
 
 .subcategories {
@@ -122,8 +124,13 @@ main {
     color: #fff;
 }
 
+[data-theme="dark"] body {
+    background-color: #333;
+    color: #fff;
+}
+
 [data-theme="dark"] main {
-    background-color: #444;
+    background-color: #333;
     color: #fff;
 }
 
