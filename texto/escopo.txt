@@ -1,0 +1,9 @@
+# Escopo do Projeto
+Este projeto abrange todas as etapas necessárias para o desenvolvimento e implementação de um sistema de medição de umidade para cavacos. O escopo inclui:
+
+Design e Desenvolvimento- Criação do design do sistema, desenvolvimento do código e construção do protótipo.
+Testes e Validação- Realização de testes de precisão e eficácia do sistema, ajustes e melhorias conforme necessário.
+Desenvolvimento da Interface- Criação de uma interface de usuário intuitiva para a visualização dos dados de umidade.
+Documentação- Produção de manuais de uso, guias de manutenção e relatórios técnicos detalhados.
+Suporte ao Usuário- Estabelecimento de um canal de suporte técnico para auxiliar os usuários na instalação e utilização do sistema.
+O projeto não incluirá a comercialização e distribuição do produto final, focando apenas no desenvolvimento do sistema e na sua validação técnica.

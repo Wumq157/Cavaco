@@ -1,0 +1,10 @@
+# IDE (Ambiente de Desenvolvimento Integrado)
+A IDE é uma ferramenta essencial para o desenvolvimento de projetos com microcontroladores, proporcionando um ambiente onde você pode escrever, compilar e carregar código para o microcontrolador. Para este projeto, utilizamos a IDE do Arduino.
+
+# Arduino IDE
+Interface de Usuário - A Arduino IDE possui uma interface de usuário simples e intuitiva, adequada tanto para iniciantes quanto para usuários avançados. Ela inclui um editor de código, uma barra de ferramentas e uma área de mensagens.
+Editor de Código - O editor de código suporta a linguagem de programação C/C++. Ele oferece recursos básicos como realce de sintaxe, numeração de linhas e verificação de erros.
+Compilação e Upload - A IDE permite compilar o código escrito e carregá-lo diretamente para o microcontrolador através de uma conexão USB. Ela converte o código em linguagem de máquina que o microcontrolador pode entender e executar.
+Bibliotecas - A Arduino IDE possui um gerenciador de bibliotecas integrado, permitindo a instalação fácil de bibliotecas adicionais que expandem a funcionalidade do Arduino.
+Monitor Serial - A ferramenta de monitor serial integrada permite a comunicação serial com o microcontrolador, útil para depuração e visualização de dados em tempo real.
+Para mais informações sobre a Arduino IDE: www.arduino.cc/en/software

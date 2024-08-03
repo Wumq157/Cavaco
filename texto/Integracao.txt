@@ -1,0 +1,2 @@
+# Integração do Sistema
+O código será carregado no microcontrolador, e o sensor de umidade será conectado ao cavaco. A interface será exibida em um display LCD ou em uma aplicação móvel conectada ao microcontrolador.

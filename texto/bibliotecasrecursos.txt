@@ -1,0 +1,23 @@
+# Bibliotecas
+Bibliotecas são coleções de código pré-escrito que podem ser incluídas em seus programas para simplificar tarefas complexas. No projeto de medição de umidade para cavaco, utilizamos várias bibliotecas para facilitar a integração e o controle dos componentes.
+
+# Biblioteca DHT
+Propósito - A biblioteca DHT é utilizada para interagir com sensores de temperatura e umidade da série DHT, como o DHT22.
+Funcionalidade - Ela fornece funções para inicializar o sensor, ler a temperatura e a umidade, e tratar os dados obtidos.
+Instalação - Pode ser instalada através do gerenciador de bibliotecas da Arduino IDE pesquisando por "DHT sensor library" e instalando a biblioteca desenvolvida pela Adafruit.
+Uso - Inclui métodos como dht.begin() para iniciar o sensor, dht.readTemperature() para ler a temperatura e dht.readHumidity() para ler a umidade.
+Para mais informações sobre a biblioteca DHT - https://github.com/adafruit/DHT-sensor-library
+
+# Biblioteca LiquidCrystal_I2C
+Propósito - A biblioteca LiquidCrystal_I2C é utilizada para controlar displays LCD através da interface I2C.
+Funcionalidade - Ela abstrai a complexidade da comunicação I2C, oferecendo métodos fáceis para inicializar o display, escrever texto e controlar a retroiluminação.
+Instalação - Pode ser instalada através do gerenciador de bibliotecas da Arduino IDE pesquisando por "LiquidCrystal I2C" e instalando a biblioteca por Frank de Brabander.
+Uso - Inclui métodos como lcd.begin() para inicializar o display, lcd.print() para escrever texto e lcd.setCursor() para posicionar o cursor.
+Para mais informações sobre a biblioteca LiquidCrystal_I2C - https://github.com/johnrickman/LiquidCrystal_I2C
+
+# Biblioteca Wire
+Propósito - A biblioteca Wire é a biblioteca padrão do Arduino para comunicação I2C.
+Funcionalidade - Ela permite a comunicação entre o Arduino e dispositivos I2C como sensores e displays.
+Uso - Métodos como Wire.begin() para iniciar a comunicação I2C, Wire.requestFrom() para solicitar dados de um dispositivo e Wire.read() para ler os dados recebidos.
+Inclusão - Esta biblioteca já está incluída na Arduino IDE e pode ser usada diretamente.
+Para mais informações sobre a biblioteca Wire - https://www.arduino.cc/en/Reference/Wire

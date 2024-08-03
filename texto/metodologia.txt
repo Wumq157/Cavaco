@@ -1,0 +1,9 @@
+# Metodologia
+Para alcançar os objetivos propostos, será adotada a seguinte metodologia:
+
+Pesquisa e Seleção de Componentes- Identificação e seleção dos sensores de umidade e microcontroladores mais adequados para o projeto.
+Desenvolvimento do Código- Criação de um software em linguagem de programação adequada (Python) para ler os dados do sensor, processar as informações e exibir os resultados em uma interface.
+Protótipo e Testes- Montagem de um protótipo inicial do sistema e realização de testes para verificar a precisão e a eficácia do monitoramento da umidade.
+Desenvolvimento da Interface- Criação de uma interface amigável para a exibição dos dados coletados pelo sensor, utilizando um display LCD ou uma aplicação móvel.
+Integração e Validação- Integração de todos os componentes do sistema e validação do seu funcionamento em condições reais, utilizando cavacos para testes práticos.
+Documentação e Suporte- Elaboração da documentação completa do projeto, incluindo manuais de uso e manutenção, e disponibilização de suporte técnico aos usuários.

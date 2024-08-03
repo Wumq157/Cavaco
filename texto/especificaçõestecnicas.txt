@@ -1,0 +1,5 @@
+# Especificações Técnicas
+Linguagem de programação- Python/C++
+Sensor de umidade- DHT22 ou similar
+Microcontrolador- Arduino/Raspberry Pi
+Interface- Display LCD ou aplicação móvel

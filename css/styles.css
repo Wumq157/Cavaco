@@ -46,6 +46,8 @@ header {
 }
 
 .container {
+    line-height: 1.5;
+    padding: 20px;
     display: flex;
     margin-top: 60px;
     transition: margin-left 0.3s;

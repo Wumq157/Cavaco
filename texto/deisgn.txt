@@ -1,0 +1,2 @@
+ # Design do Sistema
+O sistema será composto por um microcontrolador que lê os dados do sensor de umidade, processa esses dados e os exibe em uma interface amigável. O código será modular, permitindo fácil manutenção e atualização.

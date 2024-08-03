@@ -1,0 +1,24 @@
+# Microcontrolador
+O microcontrolador é o cérebro do sistema, responsável por ler os dados do sensor de umidade, processar essas informações e enviá-las para o display. Para este projeto, podemos usar um Arduino, que é uma plataforma de prototipagem eletrônica baseada em hardware e software livres. Aqui estão alguns detalhes sobre o microcontrolador:
+
+Arduino Uno - Uma das versões mais populares do Arduino, possui um microcontrolador ATmega328P com 14 pinos digitais de entrada/saída (dos quais 6 podem ser usados como saídas PWM) e 6 entradas analógicas. O Arduino Uno opera com uma voltagem de 5V e possui uma memória flash de 32 KB, SRAM de 2 KB e EEPROM de 1 KB. 
+
+Conectividade - O Arduino pode ser conectado ao computador via USB para programação e também pode ser alimentado por uma fonte de alimentação externa.
+
+Programação - Utiliza a linguagem de programação Arduino (baseada em C/C++) e é programado através do ambiente de desenvolvimento Arduino IDE.
+
+# Especificações do Arduino Uno
+
+Processador - O Arduino Uno é baseado no microcontrolador ATmega328P, que possui uma arquitetura AVR de 8 bits.
+
+Pinos de I/O - Possui 14 pinos digitais de entrada/saída, dos quais 6 podem ser usados como saídas PWM. Além disso, tem 6 entradas analógicas.
+
+Memória - Inclui 32 KB de memória flash para armazenamento de código, 2 KB de SRAM para dados em execução e 1 KB de EEPROM para armazenamento de dados persistentes.
+
+Alimentação - Pode ser alimentado via USB (5V) ou através de uma fonte externa (7-12V recomendados).
+
+Conectividade -  A porta USB permite programação e comunicação serial com um computador. Existem também pinos para comunicação I2C e SPI.
+
+Programação - Programado usando a linguagem Arduino, baseada em C/C++, através do Arduino IDE, que oferece uma interface amigável para desenvolvimento e upload de código.
+
+Para mais informações sobre o Arduino Uno: www.store.arduino.cc/arduino-uno-rev3

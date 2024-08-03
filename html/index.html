@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,15 +24,33 @@
         <aside id="sidebar">
             <nav>
                 <ul>
-                    <li onclick="toggleCategory('category1')">Categoria 1</li>
+                    <li onclick="toggleCategory('category1')">Introdução</li>
                     <ul id="category1" class="subcategories hidden">
-                        <li onclick="loadContent('subcat1')">Subcategoria 1</li>
-                        <li onclick="loadContent('subcat2')">Subcategoria 2</li>
+                        <li onclick="loadContent('contexto')">Contexto</li>
+                        <li onclick="loadContent('escopo')">Escopo</li>
+                        <li onclick="loadContent('metodologia')">Metodologia</li>
+                        <li onclick="loadContent('objetivo')">Objetivo</li>
                     </ul>
-                    <li onclick="toggleCategory('category2')">Categoria 2</li>
+                    <li onclick="toggleCategory('category2')">Código</li>
                     <ul id="category2" class="subcategories hidden">
-                        <li onclick="loadContent('subcat3')">Subcategoria 3</li>
-                        <li onclick="loadContent('subcat4')">Subcategoria 4</li>
+                        <li onclick="loadContent('explicacao')">Explicação</li>
+                        <li onclick="loadContent('integracao')">Integração</li>
+                        <li onclick="loadContent('deisgn')">Deisgn</li>
+                        <li onclick="loadContent('biblioteca')">Bibliotéca</li>
+                    </ul>
+                    <li onclick="toggleCategory('category3')">Descrição do Projeto</li>
+                    <ul id="category3" class="subcategories hidden">
+                        <li onclick="loadContent('requisitosfuncionais')">Requisitos Funcionais</li>
+                        <li onclick="loadContent('requisitoanonaofuncionais')">Não Funcionais</li>
+                        <li onclick="loadContent('especificaçõestecnicas')">Especificações Técnicas</li>
+                    </ul>
+                    <li onclick="toggleCategory('category4')">Recursos</li>
+                    <ul id="category4" class="subcategories hidden">
+                        <li onclick="loadContent('bibliotecasrecursos')">Bibliotéca</li>
+                        <li onclick="loadContent('sensorumidade')">Sensor de Umidade</li>
+                        <li onclick="loadContent('display')">Display</li>
+                        <li onclick="loadContent('ide')">IDE</li>
+                        <li onclick="loadContent('microcontrolador')">Micro Controlador</li>
                     </ul>
                 </ul>
             </nav>

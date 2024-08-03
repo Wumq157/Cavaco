@@ -1,0 +1,2 @@
+# Contexto do Projeto 
+Os instrumentos musicais de madeira, como o cavaco, são extremamente sensíveis às variações de umidade. Mudanças na umidade podem afetar a estrutura da madeira, resultando em deformações, rachaduras e alteração na qualidade do som. Para músicos e fabricantes de instrumentos, manter a umidade em níveis adequados é crucial para preservar a integridade e a sonoridade do cavaco. Neste contexto, surge a necessidade de um sistema eficiente de medição de umidade que permita monitorar e controlar as condições ambientais a que o cavaco está exposto.

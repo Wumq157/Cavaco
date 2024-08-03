@@ -1,0 +1,4 @@
+# Requisitos Funcionais
+O código deve ler os dados de um sensor de umidade.
+O código deve processar os dados e exibir a umidade em uma interface amigável.
+O sistema deve alertar o usuário quando a umidade estiver fora do intervalo ideal.

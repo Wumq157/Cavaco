@@ -1,0 +1,14 @@
+# Explicação do Código
+Bibliotecas Incluídas- O código usa as bibliotecas Wire.h e LiquidCrystal_I2C.h para controlar o display LCD via I2C, e DHT.h para ler os dados do sensor DHT22.
+
+Configuração do Sensor e LCD- Define o pino do sensor DHT22 e inicializa tanto o sensor quanto o display LCD.
+
+Setup- Inicializa o sensor e o display, exibindo uma mensagem de boas-vindas no LCD.
+
+# Loop
+
+Lê a umidade do sensor.
+Verifica se a leitura é válida.
+Exibe a umidade no LCD.
+Verifica se a umidade está dentro da faixa ideal e exibe uma mensagem apropriada.
+Aguarda 2 segundos antes de realizar uma nova leitura.

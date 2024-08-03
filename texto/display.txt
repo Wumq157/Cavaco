@@ -1,0 +1,11 @@
+#Display
+O display é usado para apresentar as informações de umidade e temperatura de maneira visual ao usuário.
+
+Display LCD 16x2 com Interface I2C
+Tipo de Display - LCD (Liquid Crystal Display) de 16 colunas por 2 linhas, adequado para mostrar pequenas quantidades de texto.
+Interface I2C - Utiliza a comunicação I2C, o que reduz significativamente o número de pinos necessários para conexão ao microcontrolador (apenas 2 pinos são usados- SDA e SCL).
+Alimentação - Opera com uma tensão de 5V, compatível com a maioria dos microcontroladores, incluindo o Arduino Uno.
+Controlador - Integrado com o controlador HD44780, amplamente suportado por bibliotecas de software como a LiquidCrystal_I2C no Arduino.
+Retroiluminação - Possui retroiluminação LED para visibilidade em ambientes com pouca luz. A retroiluminação pode ser controlada via software ou manualmente.
+Fácil Integração - A biblioteca LiquidCrystal_I2C facilita a integração com o Arduino, permitindo inicializar o display, escrever texto e controlar a retroiluminação com poucos comandos.
+Para mais informações sobre o Display LCD 16x2 I2C: www.adafruit.com/product/181

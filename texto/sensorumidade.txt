@@ -1,0 +1,18 @@
+#Sensor de Umidade
+O sensor de umidade é usado para medir a quantidade de vapor de água no ar, essencial para garantir que o cavaco esteja nas condições ideais de umidade.
+
+DHT22 (AM2302)
+Tipo de Sensor - O DHT22 é um sensor digital que mede tanto a umidade quanto a temperatura.
+
+Faixa de Medição - Mede umidade relativa de 0 a 100% com uma precisão de ±2-5%. Para temperatura, mede de -40 a 80°C com uma precisão de ±0.5°C.
+
+
+Tempo de Resposta - Possui um tempo de resposta de 2 segundos, o que significa que ele pode atualizar suas leituras a cada 2 segundos.
+
+Interface de Comunicação - Utiliza um único fio para comunicação, facilitando a conexão com microcontroladores.
+
+Conexões - Possui 4 pinos (VCC, GND, DATA e um pino não conectado). O pino DATA é conectado a um pino digital do microcontrolador para leitura dos dados.
+
+Calibração - O sensor é pré-calibrado de fábrica, não necessitando de calibração adicional pelo usuário.
+
+Para mais informações sobre o DHT22 - https://www.adafruit.com/product/385

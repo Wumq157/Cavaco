@@ -1,0 +1,4 @@
+# Requisitos Não Funcionais
+O código deve ser eficiente e de baixo consumo de energia.
+A interface deve ser intuitiva e fácil de usar.
+O sistema deve ser compatível com diferentes tipos de sensores de umidade.

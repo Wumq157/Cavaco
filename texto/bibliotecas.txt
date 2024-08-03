@@ -1,0 +1,8 @@
+# Bibliotecas Necessárias
+Para compilar e executar este código, você precisará instalar as seguintes bibliotecas no Arduino IDE:
+
+DHT sensor library de Adafruit.
+LiquidCrystal I2C por Frank de Brabander.
+Para instalar essas bibliotecas, vá para Sketch > Incluir Biblioteca > Gerenciar Bibliotecas... no Arduino IDE, pesquise os nomes das bibliotecas e instale-as.
+
+Este código fornece uma base sólida para medir e exibir a umidade do cavaco, ajudando a garantir que o instrumento esteja nas melhores condições possíveis.

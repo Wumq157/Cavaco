@@ -1,0 +1,2 @@
+# Objetivo do Projeto
+O principal objetivo deste projeto é desenvolver um sistema de medição de umidade para cavacos, capaz de monitorar em tempo real os níveis de umidade, fornecendo alertas quando os valores estiverem fora do intervalo ideal. O sistema será composto por um sensor de umidade, um microcontrolador para processamento dos dados e uma interface amigável para exibição das informações. Com isso, espera-se garantir a longevidade e a qualidade sonora dos cavacos, protegendo-os contra os danos causados por condições inadequadas de umidade.

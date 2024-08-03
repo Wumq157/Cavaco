@@ -1,9 +1,22 @@
 function loadContent(subcategory) {
     const contentFiles = {
-        'subcat1': '../texto/teste.txt',
-        'subcat2': '../texto/subcat2.txt',
-        'subcat3': '../texto/subcat3.txt',
-        'subcat4': '../texto/subcat4.txt',
+        'contexto': '../texto/contexto.txt',
+        'escopo': '../texto/escopo.txt',
+        'metodologia': '../texto/metodologia.txt',
+        'objetivo': '../texto/objetivo.txt',
+        'explicacao': '../texto/explicacao.txt',
+        'integracao': '../texto/integracao.txt',
+        'deisgn': '../texto/deisgn.txt',
+        'biblioteca': '../texto/bibliotecas.txt',
+        'requisitosfuncionais': '../texto/requisitosfuncionais.txt',
+        'requisitoanonaofuncionais': '../texto/requisitoanonaofuncionais.txt',
+        'especificaçõestecnicas': '../texto/especificaçõestecnicas.txt',
+        'bibliotecasrecursos': '../texto/bibliotecasrecursos.txt',
+        'sensorumidade': '../texto/sensorumidade.txt',
+        'display': '../texto/display.txt',
+        'ide': '../texto/ide.txt',
+        'microcontrolador': '../texto/microcontrolador.txt',
+        '': '../texto/.txt',
         // Adicione mais mapeamentos de subcategorias para arquivos aqui
     };
 
