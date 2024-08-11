@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,10 @@
             let link = document.createElement("link");
             link.rel = "stylesheet";
 
-            // Verifica o modo do navegador
-            if (window.innerWidth <= 800 || navigator.userAgent.match(/Mobi/i)) {
+            // Verifica o User-Agent para detectar modo desktop em dispositivos móveis
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if (/android|iphone|ipad|ipod/i.test(userAgent) && !/windows/i.test(userAgent)) {
                 // Carrega o CSS para mobile
                 link.href = "../css/stylesMobile.css";
             } else {
@@ -26,8 +29,10 @@
 
         // Executa a função ao carregar a página
         window.onload = loadCSS;
+
     </script>
 </head>
+
 <body>
     <header>
         <div class="header-content">
@@ -85,4 +90,5 @@
     </div>
     <script src="../js/scripts.js"></script>
 </body>
+
 </html>
