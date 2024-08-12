@@ -85,5 +85,5 @@ function toggleSidebar() {
 
     // Atualiza o ícone do botão de alternância da barra lateral
     const sidebarButton = document.querySelector('.sidebar-toggle');
-    sidebarButton.textContent = sidebar.classList.contains('hidden') ? '☰' : '✖'; // ☰ para abrir, ✖ para fechar
+    sidebarButton.textContent = sidebar.classList.contains('hidden') ? '☰' : '☰'; // ☰ para abrir, ✖ para fechar
 }
