@@ -10,7 +10,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    height: 10%;
+    height: 3em;
     width: 100%;
     background: #333;
     color: #fff;
@@ -64,7 +64,7 @@ aside {
     padding: 20px;
     height: calc(100vh - 60px);
     position: fixed;
-    top: 9%;
+    top: 3em;
     left: 0;
     overflow-y: auto;
     transition: transform 0.3s;
