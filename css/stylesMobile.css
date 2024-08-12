@@ -58,7 +58,6 @@ header {
 }
 
 aside {
-    height: 100%;
     margin-top: 30px;
     width: 90%;
     background: #eee;
@@ -70,6 +69,7 @@ aside {
     overflow-y: auto;
     transition: transform 0.3s;
     font-size: 200%;
+    height: 100%;
 }
 
 aside.hidden {

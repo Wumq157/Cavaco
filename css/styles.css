@@ -64,6 +64,7 @@ aside {
     left: 0;
     overflow-y: auto;
     transition: transform 0.3s;
+    height: 100%;
 }
 
 aside.hidden {
