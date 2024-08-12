@@ -62,9 +62,8 @@ aside {
     width: 90%;
     background: #eee;
     padding: 20px;
-    height: calc(100vh - 60px);
     position: fixed;
-    top: 3em;
+    top: 1.5em;
     left: 0;
     overflow-y: auto;
     transition: transform 0.3s;
