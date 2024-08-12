@@ -1,4 +1,5 @@
 body {
+    width: auto;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 180%;
+    font-size: 1.5em;
 }
 
 .header-content {
@@ -57,6 +58,7 @@ header {
 }
 
 aside {
+    height: 100%;
     margin-top: 30px;
     width: 90%;
     background: #eee;
